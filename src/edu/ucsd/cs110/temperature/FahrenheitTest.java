@@ -1,15 +1,12 @@
 package edu.ucsd.cs110.temperature;
 
 import static org.junit.Assert.*;
+import org.junit.Test;
 
 /**
  * Created by keyuebao on 4/18/16.
  */
 public class FahrenheitTest {
-    package edu.ucsd.cs110.temperature;
-    import static org.junit.Assert.*;
-    import org.junit.Test;
-    public class FahrenheitTest {
         private float delta = 0.001f;
         @Test
         public void testFahrenheit(){
@@ -50,4 +47,3 @@ public class FahrenheitTest {
             assertEquals(100, convert.getValue(), delta);
         }
     }
-}
